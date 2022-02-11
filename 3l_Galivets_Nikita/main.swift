@@ -14,6 +14,19 @@ import Foundation
 //5. Инициализировать несколько экземпляров ваших структур. Применить к ним различные действия.
 //6. Вывести значения свойств экземпляров в консоль.
 
+//MARK: - Actions in enum
+
+enum Actions {
+    
+    case openWindows
+    case closeWindows
+    case startEngine
+    case stopEngine
+    case putInTrunk
+    case takeFromTrunk
+    
+}
+
 //MARK: - Light car Structure
 
 struct LightCar {
@@ -126,18 +139,7 @@ struct Truck {
 
 
 
-//MARK: - Actions in enum
 
-enum Actions {
-    
-    case openWindows
-    case closeWindows
-    case startEngine
-    case stopEngine
-    case putInTrunk
-    case takeFromTrunk
-    
-}
 
 
 
@@ -170,3 +172,6 @@ print("""
 truck.action(.stopEngine)
 truck.action(.closeWindows)
 truck.action(.putInTrunk)
+
+
+//Test commit - refresh HW3
