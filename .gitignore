@@ -67,8 +67,8 @@ fastlane/test_output
 
 .DS_Store
 
-*.xcodeproj/project.pbxproj
+*.project.pbxproj
 
-*.xcworkspace/contents.xcworkspacedata
+*.xcworkspacedata
 
-*.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+*.IDEWorkspaceChecks.plist
